@@ -13,6 +13,6 @@
         android:id = "@+id/checkBtn"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
-        android:text = "Check Attendence" />
+        android:text = "Show Entire Attendence" />
 
 </LinearLayout>

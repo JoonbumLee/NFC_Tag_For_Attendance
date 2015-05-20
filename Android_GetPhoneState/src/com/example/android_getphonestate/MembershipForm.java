@@ -17,7 +17,7 @@ public class MembershipForm extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_membership);
 		
 		et1 = (EditText)findViewById(R.id.id);
 		et2 = (EditText)findViewById(R.id.name);

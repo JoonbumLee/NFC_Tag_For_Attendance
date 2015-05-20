@@ -7,6 +7,7 @@ import java.util.Enumeration;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
@@ -97,5 +98,4 @@ public class MainActivity extends Activity implements OnClickListener {
     	TelephonyManager manager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
     	tv3.setText(manager.getLine1Number());
     }
-
 }

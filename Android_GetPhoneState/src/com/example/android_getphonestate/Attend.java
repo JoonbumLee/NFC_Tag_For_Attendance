@@ -1,5 +1,7 @@
 package com.example.android_getphonestate;
 
-public class Attend {
+import android.app.Activity;
+
+public class Attend extends Activity{
 
 }

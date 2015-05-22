@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleNFC</string>
+    <string name="hello_world"></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_read">NFC 태그 읽기</string>
+    <string name="title_activity_write">NFC 태그 쓰기</string>
+
+</resources>

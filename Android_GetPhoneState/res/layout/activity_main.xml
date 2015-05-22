@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id = "@+id/macBtn"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Mac Address" />
+
+    <TextView
+        android:id = "@+id/macTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mac address" />
+
+    <TextView
+        android:id="@+id/ipTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ip address" />
+    
+    <TextView
+        android:id="@+id/phoneTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number" />
+
+</LinearLayout>

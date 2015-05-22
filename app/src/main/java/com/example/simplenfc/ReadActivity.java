@@ -204,7 +204,7 @@ public class ReadActivity extends ActionBarActivity {
             msgs = new NdefMessage[rawMsgs.length];
             for (int i = 0; i < rawMsgs.length; i++) {
                 msgs[i] = (NdefMessage) rawMsgs[i];
-                showTag(msgs[i]); // showTag �޼ҵ� ȣ��
+                showTag(msgs[i]); // showTag method call for each raw
             }
         }
     }

@@ -5,9 +5,9 @@
     android:orientation="vertical" >
     
     <TextView 
-        	android:id="@+id/myattend"
+        	android:id="@+id/proallattend"
             android:layout_width = "match_parent"
             android:layout_height = "match_parent"
-            android:text = "attendence result"/>
+            android:text = "Show All students attendence result."/>
 
 </LinearLayout>

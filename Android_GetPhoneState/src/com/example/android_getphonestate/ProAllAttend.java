@@ -2,18 +2,16 @@ package com.example.android_getphonestate;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.TextView;
 
-public class Attend extends Activity{
-	
-	TextView attend;
+public class ProAllAttend  extends Activity {
+
+	TextView allattend;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_attend);
+		setContentView(R.layout.activity_proallattend);
 
-		attend = (TextView) findViewById(R.id.myattend);
+		allattend = (TextView) findViewById(R.id.proallattend);
 	}
-
 }

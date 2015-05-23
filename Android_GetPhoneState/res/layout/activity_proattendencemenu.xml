@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical" >
+    
+        <ListView
+		android:id="@+id/courselist"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</ListView>
+    
+        
+    <Button
+        android:id = "@+id/AttendenceCheck"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Attendence Checking" />
+
+    <Button
+        android:id = "@+id/AllAttendence"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Show Entire Attendence" />
+
+</LinearLayout>
